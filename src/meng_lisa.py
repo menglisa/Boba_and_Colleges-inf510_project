@@ -54,7 +54,7 @@ def main():
         #check if pickle files have been created before grabbing data
         try:
             # read pickle files as pandas df
-            data_folder = Path("./data/")
+            data_folder = Path("/inf510_project/data/")
             college_data = pd.read_pickle(data_folder / "college_pickle.pkl")
             boba_shops_data = pd.read_pickle(data_folder / "boba_pickle.pkl")
         #if csv files do not exist, must run remote first to create csv files

@@ -1,7 +1,7 @@
 import requests
 import json
 import time
-api_key = 'oOcIX3CKKoudO7uR2TECwK8AK0ccJ8Gp6DyOIaM78IZtrnQKQ4WZiJTOiPzYhruJl7um9SIthxpNrrHIOW7DXf7Cvh5vOHpKlaQCubIZ51cKIfGGKiFhp8bHZVzgXXYx'
+api_key = ''
 
 # Yelp maxes you out at 20 stores 
 def boba_shops(dataframe):

@@ -1,6 +1,6 @@
 import requests
 import json
-api_key = 'AIzaSyD5Jbf2eVNoNa4T_DA_XLz1uceKoNlot2Q'
+api_key = ''
 
 # use Google Maps "Place Details" to convert place_ids to lat,long of colleges
 def coordinates(dataframe):

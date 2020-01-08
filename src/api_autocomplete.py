@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 import json
 
-api_key = 'AIzaSyD5Jbf2eVNoNa4T_DA_XLz1uceKoNlot2Q'
+api_key = ''
 
 def normalize_college_name(dataframe):
     api_autocomplete = {}
